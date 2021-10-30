@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;;
+}
+
+:root {
+    --bgcolor : #17181F;
+}
+
+body {
+    background-color: var(--bgcolor);
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 40px auto;
+    gap: 30px; 
+}
+
+.container h1 {
+    font-size: 2.0rem;
+    color: rgb(253, 253, 253);
+}
+
+.container p {
+    color: rgb(253, 253, 253);
+    font-size: 1rem;
+}
+
+.container a {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 4px;
+    max-width: 500px;
+    margin-top: 5px;
+    border: solid 1px var(--bgcolor);
+}
+
+.container a:hover {
+    border: solid 1px #FFF;
+}
+
+.Instagram {
+    background: rgb(245,133,41);
+    background: linear-gradient(70deg, rgba(245,133,41,1) -4%, rgba(243,218,119,1) 34%, rgba(221,42,123,1) 62%, rgba(228,75,105,1) 78%, rgba(81,91,212,1) 110%);
+}
+
+.twitter{
+    background: rgb(67,87,173);
+background: linear-gradient(55deg, rgba(67,87,173,1) 0%, rgba(34,50,87,1) 100%);
+}
+
+.linkedin {
+    background: rgb(103,164,198);
+background: linear-gradient(55deg, rgba(103,164,198,1) 0%, rgba(19,50,172,1) 100%);
+}
+
+.github {
+    background: rgb(173,81,67);
+background: linear-gradient(55deg, rgba(173,81,67,1) 0%, rgba(34,50,87,1) 100%);
+}
+
+.container i {
+    padding-right: 10px;
+}
+
+.final{
+    background-color: #202129;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 4px;
+    max-width: 500px;
+    margin-top: none;
+    border: solid 1px var(--bgcolor);
+
+}
+.final p {
+    padding: 5px;
+    padding-top: 30px;
+}
+
+.final h2 {
+    font-size: 1.3rem;
+}
+.final i {
+    padding-left: 7px;
+}
+
+
+.profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
